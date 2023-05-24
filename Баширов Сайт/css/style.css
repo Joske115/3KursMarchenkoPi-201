@@ -1,0 +1,318 @@
+.filter{
+    position: fixed;
+    right: -60px;
+    top: 200px;
+    border: 1px solid #000;
+    background-color: #4a50e1;
+    padding: 5px;
+    transform: rotate(90deg);
+}
+
+.filter a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Костыльные стили для bootstrap'a */
+
+.margin-top15 {
+    margin-top: 15px;
+}
+
+.darkgray{
+    font-size: 12px;
+    color: darkgray;
+    text-decoration: none;
+}
+
+.breadcrumb-item:not(:last-child) > a{
+    border-bottom: 1px solid hsla(0,0%,83%,.5);
+}
+
+/* Основные стили */
+.header__menu {
+    margin-left: 100px;
+}
+
+.header-menu__wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    list-style-type: none;
+}
+
+.header-menu__link {
+    font-size: 12px;
+    text-decoration: none;
+    color: darkgray
+}
+
+.header-menu__link:hover {
+    color: black;
+}
+
+
+.header__shop-menu {
+    margin-left: -25px;
+}
+
+.shop-menu__wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.shop-menu__link {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+}
+
+.shop-menu__item:nth-child(1) > a{
+    color: #DF2D6B
+}
+
+.shop-menu__link:hover {
+    border-bottom: 4px solid #2305ba;
+}
+
+.header__icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.login a {
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login a:hover {
+    border-bottom: 4px solid #2305ba;
+    transition: border-bottom 0.1s;
+}
+
+.header__basket {
+    display: block;
+    border: none;
+    width: 1.8125rem;
+    height: 2rem;
+    margin-left: .5rem;
+    background: url(https://sport-marafon.ru/frontend/dist/cb160aa6339f59013506c89e49cb5b5c.svg) no-repeat 50%;
+    background-size: auto;
+    background-size: contain;
+    position: relative;
+    top: -.1875rem;
+}
+
+.header__basket:hover{
+    background-image: url(https://sport-marafon.ru/frontend/dist/deab1814a258e086b9538ebf9224c061.svg);
+}
+
+.header__favorite {
+    display: block;
+    border: none;
+    width: 2.125rem;
+    height: 1.75rem;
+    margin-left: .5rem;
+    background: url(https://sport-marafon.ru/frontend/dist/83f9f24a6fbb2fb0f76fbdb09b372d27.svg) no-repeat 50%;
+    background-size: auto;
+    background-size: contain;
+}
+
+.header__favorite:hover{
+    background: url(https://sport-marafon.ru/frontend/dist/3135c141916747ec615287e786690f45.svg);
+    background-size: contain;
+}
+
+.header__search {
+    display: block;
+    border: none;
+    width: 1.8125rem;
+    height: 1.8125rem;
+    margin-left: .5rem;
+    background-image: url(https://sport-marafon.ru/frontend/dist/eb9f50dc6c58e42620c5d13e0e41c0cb.svg);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.header__search:hover{
+    background-image: url(https://sport-marafon.ru/frontend/dist/2a780bc38b5121e91b93c47696cfde6c.svg);
+}
+
+main{
+    margin-top: 20px;
+}
+
+.breadcrumb-item:not(:last-child):hover > a{
+    color: #2305ba;
+}
+
+.catalog{
+    margin-top: 0px;
+    position: relative;
+}
+
+.catalog li{
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.catalog li img{
+    padding: 6px;
+}
+
+.catalog li img:hover{
+    border: 2px solid #d2d2d2;
+}
+
+.button_size button{
+    color: black;
+    width: 100px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid #d2d2d2;
+    margin-bottom: .625rem;
+}
+
+.button_size button:hover{
+    background-color: #4a50e1;
+    color: white;
+}
+
+.button_size button:focus{
+    background-color: #4a50e1;
+    color: white;
+}
+
+.button_size input{
+    background-color: white;
+    border: 1px solid #d2d2d2;
+    margin-bottom: .625rem;
+}
+
+.in_basket{
+    margin-bottom: .625rem;
+}
+
+.in_basket button{
+    background-color: #4a50e1;
+    border: none;
+    color: white;
+    width: 500px;
+    height: 60px;
+}
+
+.compare{
+    margin-bottom: .625rem;
+}
+
+.compare button{
+    background-color: white;
+    border: 1px solid #4a50e1;
+    color: #4a50e1;
+    width: 248px;
+    height: 60px;
+}
+
+.compare button:hover{
+    background-color: black;
+    color: white;
+    border: none
+}
+
+.in_basket button:hover{
+    background-color: black;
+    color: white;
+    border: none
+}
+
+.catalog_switch{
+    margin-top: 350px;
+    
+}
+
+.catalog_switch span{
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.catalog_switch span:focus{
+    border-top: 4px solid #4a50e1;
+}
+
+.catalog_switch span:hover{
+    color:#4a50e1;
+    border-top: 4px solid #4a50e1;
+}
+
+.rrrr{
+    margin-top: 20px;
+    font-size: .9375rem;
+}
+
+.rrrr div{
+    margin-bottom: 20px;
+}
+
+.div{
+    font-size: .9375rem;
+}
+
+.footer-menu{
+    font-size: .9375rem;
+    margin-bottom: .5rem;
+}
+
+.footer-menu ul{
+    padding: 0;
+    font-size: .8125rem;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 100px;
+}
+
+.footer-menu ul li a{
+    color: darkgray;
+    border-bottom: 1px solid #d2d2d2;
+    font-weight: 600;
+}
+
+.footer-menu ul li a:hover{
+    color: #4a50e1
+}
+
+.footer-menu ul li{
+    margin-bottom: 10px;
+}
+
+.footer-menu_name{
+    border-bottom: 1px solid #4a50e1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer_contact{
+    font-size: .8175rem;
+    border-bottom: 1px solid #4a50e1;
+    font-weight: 600;
+    color:black
+}
